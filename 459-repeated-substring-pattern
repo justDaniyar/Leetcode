@@ -1,0 +1,6 @@
+def repeatedSubstringPattern(self, s: str) -> bool:
+    t = (s+s)[1:-1]
+    return s in t
+
+
+print(repeatedSubstringPattern('abab'))
